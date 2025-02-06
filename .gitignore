@@ -43,23 +43,11 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
-# Flutter/Dart/Pub related
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-build/
-
-# IntelliJ related
 .idea/
-
-# VS Code related
 .vscode/
+build/
+pubspec.lock
 
-# macOS related
-*.DS_Store
-
-# Android Studio related
-local.properties
